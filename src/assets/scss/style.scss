@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 // setting
-// @import "setting/fonts";
+@use "setting/fonts";
 @use "setting/vars";
 @use "setting/reset";
 @use "setting/mixin";
@@ -9,3 +9,4 @@
 
 @use "section/layout";
 @use "section/header";
+@use "section/search";
