@@ -4,9 +4,10 @@
 @use "setting/fonts";
 @use "setting/vars";
 @use "setting/reset";
-@use "setting/mixin";
+@use "setting/mixin" as m;
 @use "setting/common";
 
 @use "section/layout";
 @use "section/header";
 @use "section/search";
+@use "section/today";
