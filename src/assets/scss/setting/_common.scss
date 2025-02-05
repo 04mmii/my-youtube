@@ -60,3 +60,13 @@ section {
     }
   }
 }
+
+// 섹션 로딩 소스
+.isLoading {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.isLoaded {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
